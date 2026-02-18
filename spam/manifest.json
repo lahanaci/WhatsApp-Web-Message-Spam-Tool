@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "WA Experimental Sender",
+    "version": "1.0",
+    "description": "WhatsApp Web için deneysel, Paste-Event tabanlı mesaj gönderici.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "WA Sender"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
