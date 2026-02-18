@@ -15,6 +15,6 @@ A fun and experimental Chrome extension that spams messages in the currently ope
 2. Open Chrome → `chrome://extensions`
 3. Enable **Developer Mode**
 4. Click **Load unpacked**
-5. Select the project folder
+5. Select the only spam folder
 6. Open https://web.whatsapp.com
 7. Open a chat and start spamming
